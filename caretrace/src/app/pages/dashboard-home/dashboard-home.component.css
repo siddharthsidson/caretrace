@@ -1,0 +1,7 @@
+.home {
+  background: url(../../../assets/CareTraceLogo-Photoroom.png) fixed;
+  background-color: rgba(158, 158, 158, 1);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,25 @@
+<div
+  class="d-flex flex-column flex-shrink-0 p-3 sidebar"
+  [class.closed]="isSidebarClosed"
+>
+  <button
+    class="toggle-btn border-0 bg-transparent text-start text-white"
+    (click)="toggleSidebar()"
+  >
+    <i class="{{ expandIcon }}"></i>
+    <span *ngIf="!isSidebarClosed"></span>
+  </button>
+  <ul class="nav nav-pills flex-column mb-auto">
+    <li class="nav-item">
+      <a
+        href="#"
+        [routerLink]="['dashboard-home']"
+        class="nav-link text-white"
+        aria-current="page"
+      >
+        <i class="fa-solid fa-pen-to-square"></i>
+        <span class="mt-1" *ngIf="!isSidebarClosed">&nbsp;Home</span>
+      </a>
+    </li>
+  </ul>
+</div>

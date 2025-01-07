@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand mb-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" [routerLink]="['my-dashboard']" >Care Trace</a>
+      <div class="" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="img-rounded profile-img"></div><small>Hi, {{user}}</small>&nbsp;
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item text-center"><i class="fa-regular fa-user"></i>&nbsp;Profile</a></li>
+              <li><a class="dropdown-item text-center" href="#" (click)="logOut()"><i class="fa-solid fa-right-from-bracket"></i>&nbsp;Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
