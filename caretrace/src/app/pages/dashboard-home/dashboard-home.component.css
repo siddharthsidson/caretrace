@@ -1,7 +1,10 @@
 .home {
-  background: url(../../../assets/CareTraceLogo-Photoroom.png) fixed;
-  background-color: rgba(158, 158, 158, 1);
+  background: url(../../../assets/CareTraceLogo-Photoroom.png),linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) fixed;
+  /* background-color: rgba(158, 158, 158, 1); */
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.btn-bg {
+  background-color: #86eef8;
 }
